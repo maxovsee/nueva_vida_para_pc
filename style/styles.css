@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: 'HopeGold';
-    src: url('style/fonts/HopeGold.ttf') format('opentype');
+    src: url('style/fonts/HopeGold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'RedeemGold';
-    src: url('style/fonts/RedeemGold.ttf') format('opentype');
+    src: url('style/fonts/RedeemGold.ttf') format('truetype');
 }
 
 body {
