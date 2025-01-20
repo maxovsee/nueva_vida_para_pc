@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'CompassGold';
+    src: url('style/fonts/CompassGold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HopeGold';
+    src: url('style/fonts/HopeGold.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'RedeemGold';
+    src: url('style/fonts/RedeemGold.ttf') format('opentype');
+}
+
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'HopeGold', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 105%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495e;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.business-card {
+    background-color: #1abc9c;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ascii-picture {
+    margin: 20px 0;
+}
+
+.ascii-picture pre {
+    text-align: center;
+    color: #16a085;
+    font-family: 'RedeemGold', monospace;
+    font-size: 18px;
+}
+
+.business-card h1 {
+    font-family: 'CompassGold', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.business-card h2 {
+    font-family: 'CompassGold', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.business-card p {
+    font-family: 'CompassGold', Arial, sans-serif;
+    font-size: 16px;
+    color: #ecf0f1;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .business-card {
+        padding: 20px;
+    }
+
+    .ascii-picture pre {
+        font-size: 16px;
+    }
+}
+
+.inlined {
+    width: 48px;
+    height: auto;
+    
+}
+
+.inline-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.inline-container p {
+    margin-left: 10px;
+}
