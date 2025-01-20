@@ -79,19 +79,6 @@ body {
     color: #ecf0f1;
 }
 
-@media (max-width: 768px) {
-    .container {
-        padding: 20px;
-    }
-
-    .business-card {
-        padding: 20px;
-    }
-
-    .ascii-picture pre {
-        font-size: 16px;
-    }
-}
 
 .inlined {
     width: 48px;
