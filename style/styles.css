@@ -82,9 +82,10 @@ body {
 
 .inlined {
     width: 48px;
-    height: auto;
-    
+    height: 48px;
+    object-fit: contain; /* Maintain aspect ratio */
 }
+
 
 .inline-container {
     display: flex;
