@@ -96,6 +96,10 @@ body {
     margin-left: 10px;
 }
 
+.mobile-image {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .ascii-picture {
         display: none;
@@ -107,6 +111,4 @@ body {
     }
 }
 
-.mobile-image {
-    display: none;
-}
+
