@@ -95,3 +95,18 @@ body {
 .inline-container p {
     margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .business-card {
+        padding: 20px;
+    }
+
+    .ascii-picture pre {
+        font-size: 16px;
+    }
+}
++
