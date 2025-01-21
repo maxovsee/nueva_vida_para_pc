@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Change from 'height' to 'min-height' */
     margin: 0;
     font-size: 105%;
 }
@@ -34,7 +34,9 @@ body {
     padding: 30px;
     width: 90%;
     max-width: 900px;
+    min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
 }
+
 
 .business-card {
     background-color: #1abc9c;
