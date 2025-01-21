@@ -37,6 +37,9 @@ body {
     min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
 }
 
+.maliunok {
+     width: 60%;
+}
 
 .business-card {
     background-color: #1abc9c;
@@ -112,8 +115,6 @@ body {
         height: auto;
     }
 }
-.maliunok {
-     width: 60%;
-}
+
 
 
