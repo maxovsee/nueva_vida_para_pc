@@ -5,7 +5,9 @@
 @font-face {
     font-family: 'HopeGold';
     src: url('style/fonts/HopeGold.ttf') format('truetype');
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'RedeemGold';
     src: url('style/fonts/RedeemGold.ttf') format('truetype');
@@ -38,8 +40,11 @@ body {
 }
 
 .maliunok {
-     width: 60%;
+    width: 60%;
+    max-width: 420px; /* Set a max-width to ensure consistency */
+    height: auto; /* Adjust height based on the width */
 }
+
 
 .business-card {
     background-color: #16a085; /* Darker green */
